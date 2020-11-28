@@ -1,3 +1,6 @@
+#diff
+
+
 def orac():
   fates = ["money", "love", "happiness", "hardship", "peace"]
 
