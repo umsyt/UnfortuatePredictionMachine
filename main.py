@@ -1,5 +1,5 @@
 import datetime
-k = datetime.date.today().day
+k = int(datetime.date.today().day)
 print(k)
 
 def orac():
