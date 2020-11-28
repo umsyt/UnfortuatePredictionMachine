@@ -1,5 +1,6 @@
-#diff
-
+import datetime
+k = datetime.date.today().day
+print(k)
 
 def orac():
   fates = ["money", "love", "happiness", "hardship", "peace"]
@@ -7,7 +8,7 @@ def orac():
   r = int(input("What is the date of your birthday? "))
   q = int(input("How many letters are in your name? "))
 
-  print("You will encounter "+fates[(r+q)%5])
+  print("You will encounter "+fates[(r+q+k)%5])
 
 allow = ["yes", "yeah", "y", "yup", "yep"]
 
